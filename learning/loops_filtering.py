@@ -62,3 +62,28 @@ for a in numbers:
         list.append(a)
 print(list)
 
+numbers = [15, 22, 8, 40, 11, 30]
+sum = 0
+count = 0
+average = 0
+count =0
+for a in numbers:
+    sum = sum + a
+    numcount += 1
+average = sum/numcount
+for a in numbers:
+    if a > average:
+        count +=1
+
+print("average:",average)
+print("count:",count)
+
+word ="Hello World 2024"
+new =""
+for ch in word:
+    if ch.isdigit():
+        new = new +"#"
+    else :
+        new = new + ch
+print(new)
+
